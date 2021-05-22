@@ -1,6 +1,6 @@
 ### Rails + Heroku
 
-- A new Rails app can't be deployed to Heroku right away. This Rails template bridges the gap
+- A new Rails app can't be deployed to Heroku right away. This Rails [template](https://guides.rubyonrails.org/rails_application_templates.html) bridges the gap
 and can make a Rails app **Heroku Ready**.
 
 
