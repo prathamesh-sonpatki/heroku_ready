@@ -7,6 +7,11 @@ web: bundle exec puma -C config/puma.rb
 release: bundle exec rails db:migrate
 CODE
 
+# Gems
+gem_group :development, :test do
+  gem "dotenv-rails"
+end
+
 # Running this command with `run` was not adding nokogiri gem with linux version to Gemfile.lock.
 # But manually running it adds it.
 say "Run following command to add linux platform dependency required for deployment"
